@@ -24,7 +24,10 @@
        --pad-h:      1vw;
    }
    
-   html { scroll-behavior: smooth; }
+   html { 
+    overflow-y: scroll;
+    scroll-behavior: smooth; 
+   }
    
    body {
        font-family: var(--sans);
@@ -183,7 +186,9 @@
    
    .hero-image {
     height: 52vh;
+    max-height: 55vh;
     min-height: 18rem;
+    max-width: 38vw;
     border-radius: 1rem;
     overflow: hidden;
     outline: 5px solid var(--teal);
@@ -330,7 +335,8 @@
    #projects {
        display: flex; 
        align-items: center; 
-       justify-content: space-between; 
+       justify-content: flex-start;
+       gap: 20em;
        max-width: var(--max);
        margin: 0 auto;
        padding: 4vw var(--pad-h);

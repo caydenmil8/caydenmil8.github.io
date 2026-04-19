@@ -28,7 +28,10 @@
        --pad-h:      1vw;
    }
    
-   html { scroll-behavior: smooth; }
+   html { 
+    overflow-y: scroll;
+    scroll-behavior: smooth; 
+   }
    
    body {
        font-family: var(--sans);
@@ -212,9 +215,9 @@
    }
    
    .timeline-company {
-       font-size: 0.9rem;
+       font-size: 1.2rem;
        color: var(--accent);
-       font-weight: 500;
+       font-weight: 700;
        margin-bottom: 0.8rem;
    }
    
