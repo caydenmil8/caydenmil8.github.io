@@ -98,7 +98,7 @@
    .experience-header {
        max-width: var(--max);
        margin: 0 auto;
-       padding: 5vw var(--pad-h) 3vw;
+       padding: 4vw var(--pad-h) 3vw;
    }
    
    .experience-header h1 {
