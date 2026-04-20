@@ -157,7 +157,7 @@
    }
    
    .timeline-item.right {
-       justify-content: flex-end;
+       justify-content: flex-start;
        padding-left: calc(50% + 2rem);
    }
    
@@ -247,6 +247,34 @@
        border-radius: 0.3rem;
        padding: 0.3em 0.8em;
    }
+
+   /* ════════════════════════════════
+   RESUME CTA
+════════════════════════════════ */
+.resume-cta {
+    display: flex;
+    justify-content: center;
+    padding: 2vw var(--pad-h) 4vw;
+}
+
+.resume-btn {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--text-dark);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.2rem 2.5rem;
+    background: var(--white);
+    transition: all 0.2s;
+}
+
+.resume-btn:hover {
+    border-color: var(--teal);
+    color: var(--teal);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
    
    /* ════════════════════════════════
       FOOTER
