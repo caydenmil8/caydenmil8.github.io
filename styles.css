@@ -55,7 +55,7 @@
    
    nav a:first-child { margin-right: auto; }
    
-   .home p {
+   .index p {
        font-weight: 300;
        font-size: 2.2rem;
        color: var(--white);
