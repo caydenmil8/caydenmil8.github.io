@@ -24,11 +24,6 @@
        --pad-h:      1vw;
    }
    
-   html { 
-    overflow-y: scroll;
-    scroll-behavior: smooth; 
-   }
-   
    body {
        font-family: var(--sans);
        font-size: 1.2rem;
@@ -368,7 +363,7 @@
    ════════════════════════════════ */
    footer#contact {
        background: var(--teal);
-       padding: 7vw var(--pad-h) 4vw;
+       padding: 7vw var(--pad-h) 3vw;
        text-align: left;
    }
    

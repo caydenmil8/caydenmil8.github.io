@@ -24,11 +24,6 @@
        --pad-h:      1vw;
    }
    
-   html { 
-    overflow-y: scroll;
-    scroll-behavior: smooth; 
-   }
-   
    body {
        font-family: var(--sans);
        font-size: 1.05rem;
@@ -98,13 +93,13 @@
    .experience-header {
        max-width: var(--max);
        margin: 0 auto;
-       padding: 4vw var(--pad-h) 3vw;
+       padding: 3vw var(--pad-h) 1vw;
    }
    
    .experience-header h1 {
        font-family: var(--serif);
-       font-size: clamp(2.8rem, 4vw, 4.5rem);
-       font-weight: 500;
+       font-size: clamp(2.8rem, 3.5vw, 4.5rem);
+       font-weight: 300;
        color: var(--text-dark);
        margin-bottom: 0.8rem;
    }
@@ -277,7 +272,7 @@
    ════════════════════════════════ */
    footer#contact {
        background: var(--teal);
-       padding: 7vw var(--pad-h) 4vw;
+       padding: 7vw var(--pad-h) 3vw;
        text-align: left;
    }
    
